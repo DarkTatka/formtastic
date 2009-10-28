@@ -299,10 +299,9 @@ Formtastic supports localized *labels*, *hints*, *legends*, *actions* using the 
         post:
           title: "Choose a good title for you post."
           body: "Write something inspiring here."
-      actions:
-        create: "Create my {{model}}"
-        update: "Save changes"
-        dummie: "Launch!"
+      create: "Create my {{model}}"
+      update: "Save changes"
+      dummie: "Launch!"
 </pre>
 
 *Note:* We are using English here still, but you get the point.
